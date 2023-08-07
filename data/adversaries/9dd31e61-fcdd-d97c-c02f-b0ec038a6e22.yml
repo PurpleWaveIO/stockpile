@@ -9,6 +9,10 @@ atomic_ordering:
   - 638fb6bb-ba39-4285-93d1-7e4775b033a8 # netstat
   - c0da588f-79f0-4263-8998-7496b1a40596 # whoami
   - e8017c46-acb8-400c-a4b5-b3362b5b5baa # ipconfig
+  - b22cd497-8e29-7b79-3b2c-240cb933a3cd # net view /domain
+  - 05cda6f6-2b1b-462e-bff1-845af94343f7 # Find processes
+  #DEFENSE EVASION
+  - a398986f-31b0-436a-87e9-c8e82c028f3c # inject DLL to available process
   #
   - 13379ae1-d20e-4162-91f8-320d78a35e7f # Powerview:Get-DomainComputer
   - 7049e3ec-b822-4fdf-a4ac-18190f9b66d1 # Invoke-Mimikatz
