@@ -17,12 +17,3 @@ atomic_ordering:
   - a398986f-31b0-436a-87e9-c8e82c028f3c # inject DLL to available process
   - b007f6e8-4a87-4440-8888-29ceab047d9b # Disable Defender
   #
-  - 13379ae1-d20e-4162-91f8-320d78a35e7f # Powerview:Get-DomainComputer
-  - 7049e3ec-b822-4fdf-a4ac-18190f9b66d1 # Invoke-Mimikatz
-  - 14a21534-350f-4d83-9dd7-3c56b93a0c17 # nbtstat
-  - 6d90e6fa-9324-4eb5-93be-9f737245bd7z # get-netlocalgroup/admins
-  - 2afae782-6d0a-4fbd-a6b6-d1ce90090eac # get-netlocalgroup/admins using Credential-Object (backup)
-  - 921055f4-5970-4707-909e-62f594234d91 # ping to check firewall
-  - aa6ec4dd-db09-4925-b9b9-43adeb154686 # Net Use
-  - 65048ec1-f7ca-49d3-9410-10813e472b30 # SMB Copy
-  - ece5dde3-d370-4c20-b213-a1f424aa8d03 # WMI exec
