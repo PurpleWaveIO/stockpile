@@ -1,6 +1,6 @@
 ---
 
-- id: 5b9b95ec-d395-2d04-4514-bd93-027d471163111a20
+- id: b22cd497-8e29-7b79-3b2c-240cb933a3cd
   name: Account Discovery: Domain Account
   description: List computers in domain
   tactic: discovery
