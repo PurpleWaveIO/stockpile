@@ -1,0 +1,14 @@
+---
+
+- id: 5b9b95ec-d395-2d04-4514-bd93-027d471163111a20
+  name: Account Discovery: Domain Account
+  description: List computers in domain
+  tactic: discovery
+  technique:
+    attack_id: T1087.002 
+    name: Account Discovery: Domain Account
+  platforms:
+    windows:
+      psh:
+        command: |
+        net view /domain
