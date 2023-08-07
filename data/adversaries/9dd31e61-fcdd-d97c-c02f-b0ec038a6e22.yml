@@ -6,7 +6,10 @@ description: Adversary TTPs for emulated Qakbot+BlackBasta scenario using known 
 atomic_ordering:
   #DISCOVERY
   - 85341c8c-4ecb-4579-8f53-43e3e91d7617 # arp -a
-  - bd527b63-9f9e-46e0-9816-b8434d2b8989 # whoami
+  - 638fb6bb-ba39-4285-93d1-7e4775b033a8 # netstat
+  - c0da588f-79f0-4263-8998-7496b1a40596 # whoami
+  - e8017c46-acb8-400c-a4b5-b3362b5b5baa # ipconfig
+  #
   - 13379ae1-d20e-4162-91f8-320d78a35e7f # Powerview:Get-DomainComputer
   - 7049e3ec-b822-4fdf-a4ac-18190f9b66d1 # Invoke-Mimikatz
   - 14a21534-350f-4d83-9dd7-3c56b93a0c17 # nbtstat
