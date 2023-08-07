@@ -1,0 +1,16 @@
+- id: 155c4e59-299b-e9c9-0de9-61ea821eacea
+  name: Scheduled Task/Job: Scheduled Task
+  description: |
+    An adversary may use Windows Task Scheduler to execute programs at system startup or on a scheduled basis for persistence.
+  tactic: persistence
+  technique:
+    attack_id: T1053.005 
+    name: "Scheduled Task/Job: Scheduled Task"
+  platforms:
+    windows:
+      psh:
+        command: |
+          "C:\Windows\system32\schtasks.exe" /Create /tn BAS-01-Persistence /tr "regsvr32.exe -s \"C:\Users\<user>\Xertis.d77\"" /SC ONCE /Z / ST HH: 00 /ET HH:MM
+        cleanup: |
+          schtasks /Delete /TN AS-01-Persistence /F
+          
